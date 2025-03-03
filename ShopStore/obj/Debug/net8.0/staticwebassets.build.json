@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "XK+hiR63SDVc6soz5URADICU+OBmxZN3fW9JY3a7DIU=",
+  "Source": "ShopStore",
+  "BasePath": "_content/ShopStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShopStore/wwwroot",
+      "Source": "ShopStore",
+      "ContentRoot": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/wwwroot/",
+      "BasePath": "_content/ShopStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/bundle/ShopStore.styles.css",
+      "SourceId": "ShopStore",
+      "SourceType": "Computed",
+      "ContentRoot": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/ShopStore",
+      "RelativePath": "ShopStore.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/bundle/ShopStore.styles.css"
+    },
+    {
+      "Identity": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/projectbundle/ShopStore.bundle.scp.css",
+      "SourceId": "ShopStore",
+      "SourceType": "Computed",
+      "ContentRoot": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/ShopStore",
+      "RelativePath": "ShopStore.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/projectbundle/ShopStore.bundle.scp.css"
+    },
+    {
+      "Identity": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/wwwroot/app.css",
+      "SourceId": "ShopStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/wwwroot/",
+      "BasePath": "_content/ShopStore",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    }
+  ]
+}

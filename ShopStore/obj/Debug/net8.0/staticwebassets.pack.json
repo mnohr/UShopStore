@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/scopedcss/projectbundle/ShopStore.bundle.scp.css",
+      "PackagePath": "staticwebassets/ShopStore.bundle.scp.css"
+    },
+    {
+      "Id": "/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ShopStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ShopStore.props",
+      "PackagePath": "build\\ShopStore.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShopStore.props",
+      "PackagePath": "buildMultiTargeting\\ShopStore.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShopStore.props",
+      "PackagePath": "buildTransitive\\ShopStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,49 @@
+﻿@page "/"
+@using ShopStore.Models
+@using Clients
+<PageTitle>Home</PageTitle>
+@if(shops is null){
+  <p><em>loading...</em></p>
+}else{
+<table class="table table-striped table-border table-hover mt-3">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Category</th>
+      <th scope="col">Price</th>
+      <th>Released Date</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var shop in shops)
+    {
+      <tr>
+        <td>@shop.Id</td>
+        <td>@shop.Name</td>
+        <td>@shop.Category</td>
+        <td>@shop.Price</td>
+        <td>@shop.Date</td>
+
+      </tr>
+    }
+
+  </tbody>
+</table>
+}
+
+
+
+@code {
+
+  private ShopClients clients = new();
+  private ShopDetails[]? shops;
+
+  protected override void OnInitialized(){
+    shops = clients.GetShop();
+  }
+}
+
+
+   
