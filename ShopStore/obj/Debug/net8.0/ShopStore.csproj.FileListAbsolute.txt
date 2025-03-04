@@ -26,3 +26,4 @@
 /media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/ShopStore.pdb
 /media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/ShopStore.genruntimeconfig.cache
 /media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/ref/ShopStore.dll
+/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/obj/Debug/net8.0/ShopStore.sourcelink.json
