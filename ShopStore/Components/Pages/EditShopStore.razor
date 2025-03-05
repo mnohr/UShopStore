@@ -1,0 +1,37 @@
+﻿@page "/editshopstore"
+@using Models
+
+<PageTitle>EditShopStore </PageTitle>
+<h3>EditShopStore</h3>
+
+
+<EditForm Model="@shop" FormName="EditShop">
+  <div class="form-group">
+    <label for="name" class="form-label">Name</label>
+    <InputText  id="name" class="form-control" @bind-Value="shop.Name" />
+  </div>
+  <div class="form-group">
+    <label for="Category" class="form-label">Category</label>
+    <InputSelect  id="category" class="form-control" @bind-Value="shop.CategoryId" />
+  </div>
+  <div class="form-group">
+    <label for="Price" class="form-label">Price</label>
+    <InputNumber  id="name" class="form-control" @bind-Value="shop.Price" />
+  </div>
+  <div class="form-group">
+    <label for="name" class="form-label">Name</label>
+    <InputDate  id="name" class="form-control" @bind-Value="shop.Date" />
+  </div>
+  
+  @* <button type="submit" class="btn btn-primary">Submit</button> *@
+</EditForm>
+
+
+@code {
+    private ShopSummery shop { get; set;} = new() {
+        Name = String.Empty,
+        Date = DateOnly.FromDateTime(DateTime.UtcNow)
+    } ;
+
+}
+  

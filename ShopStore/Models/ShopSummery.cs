@@ -6,7 +6,7 @@ public class ShopSummery
 {
     public int Id { get; set; }
     public required string Name { get; set; }
-    public string? Category { get; set; }
+    public string? CategoryId { get; set; }
 
     public decimal Price { get; set; }
 

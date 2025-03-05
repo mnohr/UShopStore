@@ -26,8 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2QmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/Components/Pages/EditShop.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZGl0U2hvcC5yYXpvcg==
+[/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/Components/Pages/EditShopStore.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZGl0U2hvcFN0b3JlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/media/manohar/BADA5309DA52C175/training/blazor/UShopStore/ShopStore/Components/Pages/Error.razor]
